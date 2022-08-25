@@ -1,0 +1,60 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"rootDir": "./",
+		"outDir": "./dist",
+		"newLine": "LF",
+		"target": "ES2018",
+		"module": "ESNext",
+		"lib": [
+			"ES2015",
+			"ES2018",
+			"ESNext",
+			"DOM"
+		],
+		"esModuleInterop": true,
+		"strictPropertyInitialization": false,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"importHelpers": true,
+		"noImplicitAny": false,
+		"noImplicitThis": false,
+		"pretty": true,
+		"sourceMap": false,
+		"allowJs": true,
+		"noEmit": false,
+		"strict": true,
+		"alwaysStrict": true,
+		"noFallthroughCasesInSwitch": true,
+		"moduleResolution": "Node",
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		"experimentalDecorators": true,
+		"exactOptionalPropertyTypes": false,
+		"emitDecoratorMetadata": true,
+		"useUnknownInCatchVariables": false,
+		"removeComments": true,
+		"resolveJsonModule": true,
+		"paths": {
+			"@common/*": [
+				"./common/*"
+			],
+			"@common-ts/*": [
+				"./*"
+			],
+		}
+	},
+	"exclude": [
+		"dist",
+		"lib",
+		"node_modules",
+		"tests",
+		"**/*no-compile*",
+		"**/*deprecated*",
+		"**/*ignore*",
+		"**/*.d.ts",
+		"**/*.d.mts",
+		"**/*.map",
+		"**/*spec*"
+	]
+}
